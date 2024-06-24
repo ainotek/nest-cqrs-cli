@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ainotek/nest-cqrs-cli.git"
+    "url": "git+https://github.com/ainotek/nest-cqrs-cli.git"
   },
   "type": "module",
   "main": "index.js",
@@ -12,18 +12,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "nest-cqrs-cli": "./index.js",
-    "create-structure": "./commands/create-structure.js",
-    "create-command": "./commands/create-command.js",
-    "create-usecase": "./commands/create-usecase.js",
-    "create-entity": "./commands/create-entity.js",
-    "create-controller": "./commands/create-controller.js",
-    "create-repository": "./commands/create-repository.js",
-    "create-dto-request": "./commands/create-dto-request.js",
-    "create-dto-response": "./commands/create-dto-response.js",
-    "create-query": "./commands/create-query.js",
-    "create-mapper": "./commands/create-mapper.js",
-    "create-orm-entity": "./commands/create-orm-entity.js"
+    "nest-cqrs-cli": "index.js",
+    "create-structure": "commands/create-structure.js",
+    "create-command": "commands/create-command.js",
+    "create-usecase": "commands/create-usecase.js",
+    "create-entity": "commands/create-entity.js",
+    "create-controller": "commands/create-controller.js",
+    "create-repository": "commands/create-repository.js",
+    "create-dto-request": "commands/create-dto-request.js",
+    "create-dto-response": "commands/create-dto-response.js",
+    "create-query": "commands/create-query.js",
+    "create-mapper": "commands/create-mapper.js",
+    "create-orm-entity": "commands/create-orm-entity.js"
   },
   "keywords": [],
   "author": "",
