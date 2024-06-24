@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macm1/cli-first.git"
+    "url": "https://github.com/ainotek/nest-cqrs-cli.git"
   },
   "type": "module",
   "main": "index.js",
