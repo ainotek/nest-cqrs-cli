@@ -1,7 +1,7 @@
 {
-  "name": "cli-first",
+  "name": "nest-cqrs-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is a command line tool for creating a NestJS project with CQRS architecture.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ainotek/nest-cqrs-cli.git"
