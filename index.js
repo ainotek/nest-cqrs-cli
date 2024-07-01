@@ -52,9 +52,9 @@ program
     const createFileCallback = (filePath, name) => {
       const exportName = toCamelCase(name);
       const upateName =
-        exportName == "Usecases"
+        exportName === "Usecases"
           ? "UseCases"
-          : exportName == "Commands"
+          : exportName === "Commands"
           ? "CommandHandlers"
           : exportName;
       const fileContent = `export const ${upateName} = [\n];\n`;

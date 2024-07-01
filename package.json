@@ -1,6 +1,6 @@
 {
   "name": "nest-cqrs-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It is a command line tool for creating a NestJS project with CQRS architecture.",
   "repository": {
     "type": "git",
